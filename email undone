@@ -1,0 +1,142 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPx8215WuxEr6n4pXBLqvX/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SmartKeys/SmartKeys/blob/main/email%20undone\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import smtplib\n",
+        "smtobj=smtplib.SMTP('smtp.gmail.com', 587)\n",
+        "stmobj.ehlo()\n",
+        "smtobj.starttls()\n",
+        "smtobj.login('smartrhoda5@gmail.com', 'Sociaity212&')\n",
+        "smtobj.sendmail(\"smartrhoda431@gmail.com\",\"smartrhoda5@gmail.com\", 'Subject: Love \\n I love you ')\n",
+        "smtobj.quit\n"
+      ],
+      "metadata": {
+        "id": "TUe6lQafB5o0",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 227
+        },
+        "outputId": "90c79c9f-e967-4316-f9ea-6d5ef7ffc498"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-22-ebb5e51356a3>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0msmtplib\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0msmtobj\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0msmtplib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mSMTP\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'smtp.gmail.com'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m587\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mstmobj\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mehlo\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      4\u001b[0m \u001b[0msmtobj\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstarttls\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0msmtobj\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlogin\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'smartrhoda5@gmail.com'\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'Sociaity212&'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'stmobj' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "1c4Y2HLJU-Xj"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "XusZhmhDUlYU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 127
+        },
+        "id": "Ro2HqF6kBviV",
+        "outputId": "50dc7b33-c21d-4a07-8165-434e748ee694"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-23-a6554ae475e1>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    stmobj.echlo()tttghjjm\u001b[0m\n\u001b[0m                         ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ],
+      "source": [
+        "stmobj.echlo()tttghjjm\n",
+        "smtobj.starttls\n",
+        "smtobj.sendmail(\"smartrhoda431@gmail.com\",\"smartrhoda5@gmail.com\", 'Subject: Love \\n I love you ')\n",
+        "smtobj.quit"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "TDH47mH1B6Cd"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "DWayZNW8B4yB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "QCt9xyOlB6Wq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
